@@ -1,3 +1,23 @@
+# Vendor Performance and Inventory Analysis
+
+## 🎯 Executive Summary & Business Problem
+
+Effective inventory and sales management are essential for retail and wholesale profitability. The goal of this analysis is to optimize operational efficiency by reducing losses, mitigating vendor dependency, and improving inventory turnover.
+
+This project addresses the core business challenge of identifying inefficiencies across the supply chain by focusing on the following objectives:
+
+* **Underperforming Brands:** Isolate brands that require promotional or pricing intervention.
+* **Vendor Contribution:** Quantify the financial impact and risk associated with reliance on top suppliers.
+* **Bulk Purchasing:** Analyze the financial benefits of large-quantity orders on unit cost savings.
+* **Inventory Efficiency:** Identify vendors contributing to slow-moving inventory to optimize stock levels.
+* **Profit Variance:** Investigate statistical differences in profitability between high- and low-performing vendor groups.
+
+---
+
+## 🛠️ Repository Architecture
+
+This project follows a streamlined analytical pipeline:
+
 | File / Folder                  | Purpose                                                                    | Status              |
 |--------------------------------|-----------------------------------------------------------------------------|---------------------|
 | **ingestion.ipynb**            | Data extraction, cleansing, and loading into a persistent SQL database (SQLite). | Core ETL            |
