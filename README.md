@@ -16,15 +16,15 @@ This project addresses the core business challenge of identifying inefficiencies
 
 ## 🛠️ Repository Architecture
 
-This project follows a streamlined analytical pipeline:
-
 | File / Folder                  | Purpose                                                                    | Status              |
 |--------------------------------|-----------------------------------------------------------------------------|---------------------|
 | **ingestion.ipynb**            | Data extraction, cleansing, and loading into a persistent SQL database (SQLite). | Core ETL            |
 | **EDA.ipynb / EDA_visualization.ipynb** | Exploratory Data Analysis, statistical validation, and visualization of key insights. | Analysis Layer      |
 | **Check For sales.ipynb**      | Ancillary notebook for specific sales and data integrity checks.            | Validation          |
+| **Power BI Dashboard/**        | Interactive dashboard for visualizing vendor performance, sales trends, and KPIs. | Visualization Layer |
 | **data/**                      | Raw source files (excluded from version control).                           | Ignored             |
-| **logs/**                      | Processing and ingestion logs (excluded from version control).               | Uploaded             |
+| **logs/**                      | Processing and ingestion logs (excluded from version control).               | Ignored             |
+
 
 
 🔒 Security Assurance
